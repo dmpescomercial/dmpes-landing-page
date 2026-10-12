@@ -10,10 +10,12 @@ export function SubscriptionSummary() {
       <p className="edition-includes">{product.subscription.includes}</p>
       <p className="edition-checkout-status">{editionCopy.checkoutStatus}</p>
     </div>
-    <div className="edition-subscription-terms">
-      <div><h4>Durante o período ativo</h4><p>{product.subscription.activeBenefits}</p></div>
+    <div className="edition-subscription-details">
+      <section className="edition-active-benefits" aria-labelledby="subscription-benefits-title"><h4 id="subscription-benefits-title">Durante o período ativo</h4><p>{product.subscription.activeBenefits}</p></section>
+      <div className="edition-subscription-terms">
       <div><h4>Renovação</h4><p>{product.subscription.renewal} O valor atual da renovação também é {formattedPrice} por {product.subscription.months} meses.</p></div>
       <div><h4>Após o vencimento</h4><p>{product.subscription.expiry}</p></div>
+      </div>
     </div>
   </aside>;
 }

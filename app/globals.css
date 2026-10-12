@@ -255,8 +255,13 @@ h2 { font-family: var(--font-display); text-transform: uppercase; font-weight: 4
 .edition-price span { font-size: .875rem; color: var(--color-muted); }
 .edition-includes { margin-top: .75rem; font-size: .875rem; line-height: 1.8; }
 .edition-checkout-status { color: var(--color-muted); font-size: .8125rem; line-height: 1.8; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #eef2ea25; }
-.edition-subscription-terms { display: grid; gap: 1.5rem; }
-.edition-subscription-terms h4 { margin-bottom: .5rem; color: var(--color-foreground); font-size: .875rem; line-height: 1.6; font-weight: 600; }
+.edition-subscription-details { min-width: 0; }
+.edition-active-benefits { padding: 1.25rem; border-left: 3px solid var(--color-lime); background: #0e381860; }
+.edition-active-benefits h4 { margin-bottom: .75rem; color: var(--color-foreground); font-size: 1rem; line-height: 1.5; font-weight: 600; }
+.edition-active-benefits p { color: var(--color-foreground); font-size: .9375rem; line-height: 1.85; }
+.edition-subscription-terms { display: grid; gap: 1.5rem; margin-top: 1.75rem; padding-top: 1.75rem; border-top: 1px solid #eef2ea25; }
+.edition-subscription-terms > div + div { padding-top: 1.5rem; border-top: 1px solid #eef2ea25; }
+.edition-subscription-terms h4 { margin-bottom: .75rem; color: var(--color-foreground); font-size: 1rem; line-height: 1.6; font-weight: 600; }
 .edition-subscription-terms p { color: var(--color-muted); font-size: .875rem; line-height: 1.9; }
 @media (min-width: 640px) { .edition-subscription { padding: 2rem; } }
 @media (min-width: 1024px) { .editions-grid { grid-template-columns: repeat(3,minmax(0,1fr)); } .edition-subscription { grid-template-columns: 1fr 1.2fr; gap: 3rem; padding: 2.5rem; } }
