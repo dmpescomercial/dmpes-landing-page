@@ -112,3 +112,15 @@ Nenhuma alteração adicional nas Fases 1, 2 ou 3 deve ocorrer sem nova solicita
 - Refinamento autorizado apenas no bloco comercial: benefícios ativos destacados, renovação e vencimento separados por divisórias, títulos e espaçamento.
 - Todas as condições permanecem visíveis, sem accordion, novas ofertas ou alteração de texto comercial centralizado.
 - Cards e Fases 1–3 preservados. Checkout inativo, sem deploy ou Fase 5. Aprovação final da Fase 4 pendente.
+
+## Aprovação final — Fase 4 concluída (2026-10-12)
+
+O responsável aprovou oficialmente a Fase 4 após revisar as capturas desktop e mobile do refinamento comercial:
+- Três cards comparativos de Completo, Lite e Mobile, com destaque visual do Completo e especificações técnicas.
+- Bloco comercial único de R$ 49,99 por três meses, incluindo as três edições.
+- Hierarquia dos benefícios durante o período ativo e apresentação transparente da renovação e do vencimento.
+- Responsividade e identidade visual.
+
+Estado: Fase 4 concluída e aprovada. Implementação e refinamento consolidados na branch `develop/fase-4-edicoes`, nos commits `0ce0fce` e `f31fbcd`, acrescidos deste registro de aprovação. A branch parte de `develop/fase-3-aprovada` (`af9928e`) e preserva as Fases 1–3 e os oito assets oficiais. As capturas estão na branch `review/capturas-fase-1`, em `review-exports/phase-4/`.
+
+Checkout permanece inativo. Não realizar deploy, não iniciar a Fase 5 e não modificar as fases aprovadas sem nova solicitação. Aguardar o próximo briefing do responsável. Este registro substitui o estado de aprovação pendente nas entradas anteriores da Fase 4.
