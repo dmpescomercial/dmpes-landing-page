@@ -124,3 +124,12 @@ O responsável aprovou oficialmente a Fase 4 após revisar as capturas desktop e
 Estado: Fase 4 concluída e aprovada. Implementação e refinamento consolidados na branch `develop/fase-4-edicoes`, nos commits `0ce0fce` e `f31fbcd`, acrescidos deste registro de aprovação. A branch parte de `develop/fase-3-aprovada` (`af9928e`) e preserva as Fases 1–3 e os oito assets oficiais. As capturas estão na branch `review/capturas-fase-1`, em `review-exports/phase-4/`.
 
 Checkout permanece inativo. Não realizar deploy, não iniciar a Fase 5 e não modificar as fases aprovadas sem nova solicitação. Aguardar o próximo briefing do responsável. Este registro substitui o estado de aprovação pendente nas entradas anteriores da Fase 4.
+
+## Fase 5 — Como funciona autorizado
+- Responsável aprovou a proposta e autorizou implementação a partir de `develop/fase-4-edicoes` (`bbd5b7f`), na branch `develop/fase-5-como-funciona`.
+- Seção “DO ACESSO AO CAMPO.” imediatamente após comparativo/bloco comercial e antes de “Sul-americano por essência”.
+- Copy aprovada: contratação pela LastLink com três edições na assinatura, arquivos na área de membros durante o período ativo, tutoriais e instalação orientada.
+- Quatro etapas com igual peso visual, lista ordenada, ícones decorativos e componentes de servidor; quatro colunas desktop, duas tablet e uma mobile.
+- WhatsApp apenas comercial pré-venda; Telegram técnico durante o período ativo. Sem preço ou CTA adicional.
+- Sem promessas de acesso instantâneo, instalação automática, compatibilidade, prazos ou requisitos não confirmados.
+- Fases 1–4 e assets preservados. Checkout inativo; sem deploy ou Fase 6. Aprovação visual da Fase 5 pendente.
