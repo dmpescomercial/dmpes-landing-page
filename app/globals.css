@@ -281,3 +281,22 @@ h2 { font-family: var(--font-display); text-transform: uppercase; font-weight: 4
 .how-channels p { margin-top: .375rem; color: var(--color-muted); font-size: .875rem; line-height: 1.8; }
 @media (min-width: 640px) { .how-steps, .how-channels { grid-template-columns: repeat(2,minmax(0,1fr)); } }
 @media (min-width: 1024px) { .how-section { padding: 5rem 0; } .how-steps { grid-template-columns: repeat(4,minmax(0,1fr)); } }
+
+/* Fase 6: disclosures nativos, sem dependência de JavaScript. */
+.faq-section { padding: 4rem 0; border-top: 1px solid #eef2ea15; }
+.faq-heading, .faq-list { max-width: 58rem; }
+.faq-heading h2 { font-family: var(--font-display); font-size: clamp(2.5rem,5vw,4rem); line-height: 1.15; font-weight: 400; }
+.faq-heading > p { margin-top: 1rem; color: var(--color-muted); font-size: 1rem; line-height: 1.8; }
+.faq-list { display: grid; gap: .75rem; margin-top: 2.5rem; }
+.faq-item { min-width: 0; border: 1px solid var(--color-deep-green); background: #0e381825; transition: border-color .15s; }
+.faq-item[open] { border-color: var(--color-brand-green); }
+.faq-question { display: flex; align-items: center; justify-content: space-between; gap: 1rem; min-height: 64px; padding: 1rem 1.25rem; cursor: pointer; list-style: none; font-size: .9375rem; font-weight: 600; line-height: 1.65; transition: background-color .15s; }
+.faq-question::-webkit-details-marker { display: none; }
+.faq-question:hover { background: #0e381840; }
+.faq-question:focus-visible { outline: 3px solid var(--color-lime); outline-offset: 3px; }
+.faq-indicator { flex-shrink: 0; color: var(--color-lime); font-size: 1.5rem; font-weight: 400; line-height: 1; }
+.faq-minus, .faq-item[open] .faq-plus { display: none; }
+.faq-item[open] .faq-minus { display: inline; }
+.faq-answer { padding: 0 1.25rem 1.25rem; color: var(--color-muted); font-size: .9375rem; line-height: 1.9; }
+@media (min-width: 1024px) { .faq-section { padding: 5rem 0; } .faq-question { padding: 1.25rem 1.5rem; font-size: 1rem; } .faq-answer { padding: 0 1.5rem 1.5rem; } }
+@media (prefers-reduced-motion: reduce) { .faq-item, .faq-question { transition: none; } }

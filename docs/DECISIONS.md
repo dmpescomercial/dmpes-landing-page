@@ -145,3 +145,12 @@ O responsável aprovou oficialmente a Fase 5 após revisar as capturas desktop e
 Estado: Fase 5 concluída e aprovada. Implementação consolidada na branch `develop/fase-5-como-funciona`, a partir do commit `6dca248`, acrescido deste registro de aprovação. As Fases 1–4 e os oito assets oficiais permanecem integralmente preservados. As capturas de revisão estão em `review-exports/phase-5/`, na branch `review/capturas-fase-1`.
 
 Este registro substitui o estado de aprovação pendente da Fase 5. Checkout permanece inativo. Não realizar deploy, não iniciar a Fase 6 e não modificar as fases aprovadas sem nova solicitação. Aguardar o próximo briefing do responsável.
+
+## Fase 6 — FAQ autorizada
+- Implementação autorizada a partir de `develop/fase-5-como-funciona` (`2fc26cf`) na branch `develop/fase-6-faq`.
+- Título “TUDO O QUE VOCÊ PRECISA SABER.” e cinco perguntas/respostas aprovadas: edições, vencimento, renovação, arquivos/tutoriais e suporte.
+- Seção imediatamente após Como funciona e antes de Sul-americano por essência.
+- Dados centralizados com edições, preço, período e renovação reutilizados de `content/product.ts`; condições anteriores preservadas.
+- Accordion nativo details/summary em componentes de servidor, inicialmente fechado, múltiplos itens abertos, foco visível e indicadores decorativos por estado real. Sem bibliotecas adicionais.
+- Sem respostas não validadas sobre compatibilidade, cancelamento, reembolso ou prazos.
+- Fases 1–5 e oito assets preservados. Sem checkout, deploy ou Fase 7. Aprovação visual da Fase 6 pendente.
