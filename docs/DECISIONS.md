@@ -97,3 +97,12 @@ O responsável aprovou visualmente a Fase 3 após revisar as capturas desktop e 
 Estado: Fase 3 concluída e aprovada. O código completo das Fases 1, 2 e 3, a configuração do projeto, o catálogo e os oito assets oficiais estão consolidados na branch de desenvolvimento `develop/fase-3-aprovada`. As capturas de revisão permanecem na branch `review/capturas-fase-1`, e a origem das mídias permanece em `assets/galeria-dmpes-54`.
 
 Nenhuma alteração adicional nas Fases 1, 2 ou 3 deve ocorrer sem nova solicitação do responsável. Não realizar deploy. Aguardar o briefing da Fase 4; a aprovação desta etapa não autoriza iniciar a próxima implementação.
+
+## Fase 4 — comparativo de edições autorizado
+- O responsável aprovou arquitetura, componentes, copy e responsividade e autorizou implementar a Fase 4 em branch específica baseada em `develop/fase-3-aprovada` (`af9928e`).
+- Completo: “A experiência mais completa do DMPES.” Lite: “Conteúdo e armazenamento em equilíbrio.” Mobile: “A edição com menor tamanho informado.”
+- Cards informativos com destaque premium do Completo, sem preços individuais. Paulistão, Cariocão e Copa do Nordeste são exemplos exclusivos de extras do Completo autorizados nesta entrega.
+- Especificações de `content/product.ts`, com rótulo “Tamanho informado”; compatibilidade, requisitos e execução Mobile permanecem em validação.
+- Um bloco comercial nesta seção: R$ 49,99 por três meses para as três edições, benefícios no período ativo, renovação autorizada/configurada, ausência de renovação automática do PIX convencional e encerramento dos benefícios após vencimento.
+- Checkout inativo. Componentes de servidor, cards empilhados até 1023 px e três colunas no desktop.
+- Fases 1–3 preservadas; sem deploy ou Fase 5. A Fase 4 permanece em revisão visual até aprovação do responsável.
