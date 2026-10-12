@@ -133,3 +133,15 @@ Checkout permanece inativo. Não realizar deploy, não iniciar a Fase 5 e não m
 - WhatsApp apenas comercial pré-venda; Telegram técnico durante o período ativo. Sem preço ou CTA adicional.
 - Sem promessas de acesso instantâneo, instalação automática, compatibilidade, prazos ou requisitos não confirmados.
 - Fases 1–4 e assets preservados. Checkout inativo; sem deploy ou Fase 6. Aprovação visual da Fase 5 pendente.
+
+## Aprovação final — Fase 5 concluída (2026-10-12)
+
+O responsável aprovou oficialmente a Fase 5 após revisar as capturas desktop e mobile:
+- Título “DO ACESSO AO CAMPO.” e quatro etapas numeradas: contratação, área de membros, tutoriais e instalação.
+- Distinção clara entre WhatsApp comercial pré-venda e Telegram técnico durante o período ativo.
+- Layout responsivo, tipografia, contrastes e identidade visual.
+- Ausência de promessas de acesso imediato ou instalação automática.
+
+Estado: Fase 5 concluída e aprovada. Implementação consolidada na branch `develop/fase-5-como-funciona`, a partir do commit `6dca248`, acrescido deste registro de aprovação. As Fases 1–4 e os oito assets oficiais permanecem integralmente preservados. As capturas de revisão estão em `review-exports/phase-5/`, na branch `review/capturas-fase-1`.
+
+Este registro substitui o estado de aprovação pendente da Fase 5. Checkout permanece inativo. Não realizar deploy, não iniciar a Fase 6 e não modificar as fases aprovadas sem nova solicitação. Aguardar o próximo briefing do responsável.
