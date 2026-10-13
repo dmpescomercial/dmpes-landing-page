@@ -166,3 +166,11 @@ O responsável aprovou oficialmente a Fase 6 após revisar as capturas desktop e
 Estado: Fase 6 concluída e aprovada. Implementação consolidada na branch `develop/fase-6-faq`, a partir do commit `5456fe8`, acrescido deste registro de aprovação. As Fases 1–5 e os oito assets oficiais permanecem integralmente preservados. As capturas estão em `review-exports/phase-6/`, na branch `review/capturas-fase-1`.
 
 Este registro substitui o estado de aprovação pendente da Fase 6. Checkout permanece inativo. Não realizar deploy, não iniciar a Fase 7 e não modificar as fases aprovadas sem nova solicitação. Aguardar o próximo briefing do responsável.
+
+## Fase 7 — CTA final e rodapé autorizados
+- Implementação autorizada a partir de `develop/fase-6-faq` (`3641664`), na branch `develop/fase-7-fechamento`.
+- Ordem preservada: FAQ, Sul-americano por essência, CTA final, rodapé.
+- Copy aprovada “O CAMPO ESTÁ PRONTO. FALTA VOCÊ.”, três edições e R$ 49,99 por três meses; renovação, benefícios ativos e vencimento sempre visíveis, reutilizando dados comerciais existentes.
+- Ações principal e secundária com botão nativamente desabilitado e explicação visível; destinos checkout/WhatsApp ausentes e pendentes em dados centralizados.
+- Rodapé existente ampliado com navegação interna, identificação, canal comercial pendente e documentos jurídicos apenas em texto, sem URLs fictícias. Declaração de independência sujeita à revisão jurídica.
+- Fases 1–6 e assets preservados; mudança do rodapé restrita ao escopo autorizado. Sem dependências adicionais, checkout, WhatsApp ativo, deploy ou auditoria pré-lançamento. Aprovação visual da Fase 7 pendente.

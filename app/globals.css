@@ -300,3 +300,33 @@ h2 { font-family: var(--font-display); text-transform: uppercase; font-weight: 4
 .faq-answer { padding: 0 1.25rem 1.25rem; color: var(--color-muted); font-size: .9375rem; line-height: 1.9; }
 @media (min-width: 1024px) { .faq-section { padding: 5rem 0; } .faq-question { padding: 1.25rem 1.5rem; font-size: 1rem; } .faq-answer { padding: 0 1.5rem 1.5rem; } }
 @media (prefers-reduced-motion: reduce) { .faq-item, .faq-question { transition: none; } }
+
+/* Fase 7: fechamento comercial com destinos pendentes indisponíveis. */
+.final-cta { padding: 4rem 0; background: var(--color-deep-green); border-top: 1px solid var(--color-brand-green); }
+.final-cta-grid { display: grid; gap: 2.5rem; }
+.final-cta-heading h2 { font-family: var(--font-display); font-size: clamp(2.75rem,5.5vw,4.5rem); line-height: 1.12; font-weight: 400; }
+.final-cta-heading > p { margin-top: 1.5rem; font-size: 1rem; line-height: 1.85; max-width: 34rem; }
+.final-cta-offer { min-width: 0; }
+.final-cta-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: .5rem 1rem; }
+.final-cta-price strong { font-size: clamp(2.25rem,4vw,3rem); font-weight: 600; line-height: 1.25; white-space: nowrap; }
+.final-cta-price span, .final-cta-editions { font-size: .9375rem; line-height: 1.8; }
+.final-cta-editions { margin-top: .75rem; }
+.final-cta-renewal { margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid #eef2ea30; }
+.final-cta h3 { font-size: .9375rem; font-weight: 600; line-height: 1.6; }
+.final-cta-renewal p, .final-cta-conditions p { margin-top: .5rem; font-size: .875rem; line-height: 1.9; }
+.final-cta-actions { display: grid; gap: 1.25rem; margin-top: 1.75rem; }
+.pending-button { width: 100%; min-height: 52px; padding: 1rem; font-family: var(--font-sans); font-size: .875rem; font-weight: 600; line-height: 1.6; cursor: not-allowed; }
+.pending-primary { background: var(--color-lime); color: var(--color-background); border: 1px solid var(--color-lime); }
+.pending-secondary { background: transparent; color: var(--color-foreground); border: 1px solid #eef2ea70; }
+.pending-action p { margin-top: .5rem; font-size: .8125rem; line-height: 1.8; }
+.final-cta-conditions { display: grid; gap: 1.5rem; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #eef2ea30; }
+.institutional-footer { padding: 3rem 0 2rem; }
+.institutional-footer-grid { display: grid; gap: 2rem; }
+.institutional-footer h2 { font-size: .9375rem; line-height: 1.6; font-weight: 600; }
+.institutional-footer ul { list-style: none; padding: 0; margin-top: .75rem; }
+.institutional-footer nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: .875rem; line-height: 1.7; }
+.footer-information p, .footer-information li { margin-top: .75rem; color: var(--color-muted); font-size: .875rem; line-height: 1.8; }
+.footer-information ul { margin-top: 1.5rem; }
+.footer-independence { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #eef2ea25; max-width: 64rem; color: var(--color-muted); font-size: .8125rem; line-height: 1.9; }
+@media (min-width: 640px) { .final-cta-conditions { grid-template-columns: repeat(2,minmax(0,1fr)); } }
+@media (min-width: 1024px) { .final-cta { padding: 5rem 0; } .final-cta-grid { grid-template-columns: 1fr 1fr; gap: 4rem; } .institutional-footer-grid { grid-template-columns: 1fr .8fr 1.2fr; gap: 3rem; } }

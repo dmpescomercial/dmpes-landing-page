@@ -1,6 +1,15 @@
 import { Container } from "@/components/ui/container";
 import { product } from "@/content/product";
+import { footerContent } from "@/content/footer";
+import { commercialLinks } from "@/content/links";
 
 export function Footer() {
-  return <footer className="site-footer"><Container className="flex flex-col gap-4 py-7 sm:flex-row sm:items-start sm:justify-between"><p className="footer-brand">{product.name}<br /><span>{product.edition} / {product.version}</span></p><p className="max-w-xl text-xs leading-relaxed text-muted">Mod independente para PES 2017, sem vínculo oficial com a Konami, clubes ou competições. Aviso sujeito à revisão jurídica antes da publicação.</p></Container></footer>;
+  return <footer className="site-footer institutional-footer"><Container>
+    <div className="institutional-footer-grid">
+      <div><p className="footer-brand">{product.name}<br /><span>{product.edition} / {product.version}</span></p></div>
+      <nav aria-label="Navegação do rodapé"><h2>Navegação</h2><ul>{footerContent.navigation.map(link => <li key={link.href}><a href={link.href}>{link.label}</a></li>)}</ul></nav>
+      <div className="footer-information"><h2>Informações institucionais</h2><p>Atendimento comercial pré-venda</p><p>{commercialLinks.whatsapp.explanation}</p><ul>{footerContent.documents.map(document => <li key={document}>{document}</li>)}</ul></div>
+    </div>
+    <p className="footer-independence">{footerContent.independence}</p>
+  </Container></footer>;
 }
