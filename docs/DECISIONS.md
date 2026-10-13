@@ -174,3 +174,15 @@ Este registro substitui o estado de aprovação pendente da Fase 6. Checkout per
 - Ações principal e secundária com botão nativamente desabilitado e explicação visível; destinos checkout/WhatsApp ausentes e pendentes em dados centralizados.
 - Rodapé existente ampliado com navegação interna, identificação, canal comercial pendente e documentos jurídicos apenas em texto, sem URLs fictícias. Declaração de independência sujeita à revisão jurídica.
 - Fases 1–6 e assets preservados; mudança do rodapé restrita ao escopo autorizado. Sem dependências adicionais, checkout, WhatsApp ativo, deploy ou auditoria pré-lançamento. Aprovação visual da Fase 7 pendente.
+
+## Aprovação final — Fase 7 concluída (2026-10-13)
+
+O responsável aprovou oficialmente a Fase 7 após revisar as seis capturas desktop e mobile:
+- Título “O CAMPO ESTÁ PRONTO. FALTA VOCÊ.” e hierarquia da ação principal e secundária.
+- Preço único, transparência comercial e informações de renovação e vencimento.
+- Layout responsivo, rodapé institucional ampliado, navegação interna e identificação do produto.
+- Avisos de documentos jurídicos pendentes e declaração de independência sujeita à revisão jurídica.
+
+Estado: Fase 7 concluída e aprovada. Implementação consolidada na branch `develop/fase-7-fechamento`, a partir do commit `14d8d76`, acrescido deste registro de aprovação. As Fases 1–6 e os oito assets oficiais permanecem preservados; a ampliação do rodapé existente corresponde ao escopo expressamente autorizado. As capturas estão em `review-exports/phase-7/`, na branch `review/capturas-fase-1`.
+
+Este registro substitui o estado de aprovação pendente da Fase 7. Checkout e WhatsApp permanecem inativos até validação. Não realizar deploy, não iniciar a auditoria pré-lançamento e não modificar as fases aprovadas sem nova solicitação. Aguardar o próximo briefing do responsável.
