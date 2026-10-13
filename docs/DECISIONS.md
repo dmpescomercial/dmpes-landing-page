@@ -154,3 +154,15 @@ Este registro substitui o estado de aprovação pendente da Fase 5. Checkout per
 - Accordion nativo details/summary em componentes de servidor, inicialmente fechado, múltiplos itens abertos, foco visível e indicadores decorativos por estado real. Sem bibliotecas adicionais.
 - Sem respostas não validadas sobre compatibilidade, cancelamento, reembolso ou prazos.
 - Fases 1–5 e oito assets preservados. Sem checkout, deploy ou Fase 7. Aprovação visual da Fase 6 pendente.
+
+## Aprovação final — Fase 6 concluída
+
+O responsável aprovou oficialmente a Fase 6 após revisar as capturas desktop e mobile:
+- Título “TUDO O QUE VOCÊ PRECISA SABER.” e as cinco perguntas e respostas.
+- Accordion nativo, indicadores de expansão e possibilidade de manter múltiplas perguntas abertas.
+- Legibilidade, espaçamentos desktop/mobile, identidade visual e contraste.
+- Preservação integral das informações comerciais aprovadas.
+
+Estado: Fase 6 concluída e aprovada. Implementação consolidada na branch `develop/fase-6-faq`, a partir do commit `5456fe8`, acrescido deste registro de aprovação. As Fases 1–5 e os oito assets oficiais permanecem integralmente preservados. As capturas estão em `review-exports/phase-6/`, na branch `review/capturas-fase-1`.
+
+Este registro substitui o estado de aprovação pendente da Fase 6. Checkout permanece inativo. Não realizar deploy, não iniciar a Fase 7 e não modificar as fases aprovadas sem nova solicitação. Aguardar o próximo briefing do responsável.
