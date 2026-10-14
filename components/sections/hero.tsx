@@ -1,3 +1,4 @@
+import { CommercialNotice } from "@/components/ui/commercial-action";
 import { Container } from "@/components/ui/container";
 import { AnchorButton } from "@/components/ui/anchor-button";
 import { HeroMedia } from "@/components/sections/hero-media";
@@ -21,7 +22,7 @@ export function Hero() {
               <p><strong>{formattedPrice}</strong><span> / {product.subscription.months} meses</span></p>
               <p className="offer-versions">{product.subscription.includes}</p>
               <p className="renewal-copy">{product.subscription.renewal}</p>
-              <p className="checkout-status">Contratação indisponível nesta prévia. Checkout em validação.</p>
+              <CommercialNotice channel="checkout" className="checkout-status" />
             </div>
           </div>
         </div>

@@ -14,5 +14,4 @@ export const editionCopy = {
   sharedFeatures: "Nas três edições: elencos, ligas e uniformes atualizados.",
   completeExamples: ["Paulistão", "Cariocão", "Copa do Nordeste"],
   technicalNote: "Os valores de tamanho e espaço para extração são informações distintas. Compatibilidade, requisitos técnicos e método de execução da edição Mobile ainda estão em validação.",
-  checkoutStatus: "Contratação indisponível nesta prévia. Checkout em validação.",
 } as const;

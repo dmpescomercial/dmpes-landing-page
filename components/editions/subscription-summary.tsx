@@ -1,5 +1,5 @@
+import { CommercialNotice } from "@/components/ui/commercial-action";
 import { formattedPrice, product } from "@/content/product";
-import { editionCopy } from "@/content/editions";
 
 export function SubscriptionSummary() {
   return <aside id="assinatura-edicoes" className="edition-subscription" aria-labelledby="subscription-title">
@@ -8,7 +8,7 @@ export function SubscriptionSummary() {
       <h3 id="subscription-title">Uma assinatura.<br />As três edições.</h3>
       <p className="edition-price"><strong>{formattedPrice}</strong><span>por {product.subscription.months} meses</span></p>
       <p className="edition-includes">{product.subscription.includes}</p>
-      <p className="edition-checkout-status">{editionCopy.checkoutStatus}</p>
+      <CommercialNotice channel="checkout" className="edition-checkout-status" />
     </div>
     <div className="edition-subscription-details">
       <section className="edition-active-benefits" aria-labelledby="subscription-benefits-title"><h4 id="subscription-benefits-title">Durante o período ativo</h4><p>{product.subscription.activeBenefits}</p></section>
